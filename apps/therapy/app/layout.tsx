@@ -2,7 +2,7 @@ import './globals.css'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pathwaystherapy.com'),
+  metadataBase: new URL('https://pathways-therapy.vercel.app'),
   title: {
     default: 'Pathways Within Therapy | Mental Health Services | Long Island NY',
     template: '%s | Pathways Within Therapy'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://pathwaystherapy.com',
+    url: 'https://pathways-therapy.vercel.app',
     siteName: 'Pathways Within Therapy',
     title: 'Mental Health Therapy | Long Island NY | Pathways Within',
     description: 'Licensed therapists providing individual, couples, family therapy, EMDR, and trauma treatment. 5 Long Island locations + telehealth.',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://pathwaystherapy.com',
+    canonical: 'https://pathways-therapy.vercel.app',
   },
 }
 
@@ -44,8 +44,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "MedicalBusiness",
               "name": "Pathways Within Therapy",
-              "url": "https://pathwaystherapy.com",
-              "logo": "https://pathwaystherapy.com/logo.png",
+              "url": "https://pathways-therapy.vercel.app",
+              "logo": "https://pathways-therapy.vercel.app/logo.png",
               "description": "Licensed mental health therapy services across Long Island offering individual, couples, family therapy, EMDR, trauma treatment, and specialized care.",
               "telephone": "+1-631-371-3825",
               "email": "Welcome@pathwayswithin.com",

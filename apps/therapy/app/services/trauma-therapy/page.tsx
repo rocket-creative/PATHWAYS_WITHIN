@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description: 'Specialized trauma therapy on Long Island. EMDR, CPT, Somatic Therapy, and evidence-based approaches to help you heal from PTSD and past trauma. 5 locations + telehealth.',
   keywords: 'trauma therapy, PTSD treatment, EMDR, trauma counseling, Long Island trauma therapist, trauma recovery, CPT therapy',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/services/trauma-therapy',
+    canonical: 'https://pathways-therapy.vercel.app/services/trauma-therapy',
   },
   openGraph: {
     title: 'Trauma Therapy | Pathways Within Therapy',
     description: 'Specialized trauma therapy on Long Island. EMDR, CPT, Somatic Therapy to help you heal from PTSD and past trauma.',
-    url: 'https://pathwayswithintherapy.com/services/trauma-therapy',
+    url: 'https://pathways-therapy.vercel.app/services/trauma-therapy',
     type: 'website',
     images: [{ url: '/og-trauma-therapy.jpg', width: 1200, height: 630, alt: 'Trauma Therapy at Pathways Within' }],
   },
@@ -33,12 +33,12 @@ const serviceSchema = {
   '@type': 'MedicalTherapy',
   name: 'Trauma Therapy',
   description: 'Specialized therapy for trauma recovery including PTSD, childhood trauma, complex trauma, and single-incident trauma. Evidence-based approaches including EMDR, CPT, and Somatic Therapy.',
-  url: 'https://pathwayswithintherapy.com/services/trauma-therapy',
+  url: 'https://pathways-therapy.vercel.app/services/trauma-therapy',
   provider: {
     '@type': 'MedicalBusiness',
     name: 'Pathways Within Therapy',
     telephone: '+1-631-371-3825',
-    url: 'https://pathwayswithintherapy.com',
+    url: 'https://pathways-therapy.vercel.app',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Long Island',
@@ -93,9 +93,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathwayswithintherapy.com' },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathwayswithintherapy.com/services' },
-    { '@type': 'ListItem', position: 3, name: 'Trauma Therapy', item: 'https://pathwayswithintherapy.com/services/trauma-therapy' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathways-therapy.vercel.app' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathways-therapy.vercel.app/services' },
+    { '@type': 'ListItem', position: 3, name: 'Trauma Therapy', item: 'https://pathways-therapy.vercel.app/services/trauma-therapy' },
   ],
 }
 

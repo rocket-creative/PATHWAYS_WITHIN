@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Teen Therapy | Pathways Within Therapy',
   description: 'Confidential therapy for teenagers on Long Island. Expert support for anxiety, depression, school stress, family issues, and identity. 5 locations + telehealth. Call (631) 371-3825.',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/services/teen-therapy',
+    canonical: 'https://pathways-therapy.vercel.app/services/teen-therapy',
   },
   openGraph: {
     title: 'Teen Therapy | Adolescent Counseling | Pathways Within',
     description: 'Confidential therapy for teens. Expert support for anxiety, depression, and life challenges.',
-    url: 'https://pathwayswithintherapy.com/services/teen-therapy',
+    url: 'https://pathways-therapy.vercel.app/services/teen-therapy',
     type: 'website',
     images: [{ url: '/og-teen-therapy.jpg', width: 1200, height: 630, alt: 'Teen Therapy at Pathways Within' }],
   },
@@ -27,12 +27,12 @@ const serviceSchema = {
   name: 'Teen Therapy',
   alternateName: 'Adolescent Therapy',
   description: 'Confidential therapeutic support for teenagers ages 13-18, addressing anxiety, depression, school stress, family dynamics, identity questions, and other adolescent challenges.',
-  url: 'https://pathwayswithintherapy.com/services/teen-therapy',
+  url: 'https://pathways-therapy.vercel.app/services/teen-therapy',
   provider: {
     '@type': 'MedicalBusiness',
     name: 'Pathways Within Therapy',
     telephone: '+1-631-371-3825',
-    url: 'https://pathwayswithintherapy.com',
+    url: 'https://pathways-therapy.vercel.app',
   },
   medicalSpecialty: 'Psychiatry',
 }
@@ -80,9 +80,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathwayswithintherapy.com' },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathwayswithintherapy.com/services' },
-    { '@type': 'ListItem', position: 3, name: 'Teen Therapy', item: 'https://pathwayswithintherapy.com/services/teen-therapy' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathways-therapy.vercel.app' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathways-therapy.vercel.app/services' },
+    { '@type': 'ListItem', position: 3, name: 'Teen Therapy', item: 'https://pathways-therapy.vercel.app/services/teen-therapy' },
   ],
 }
 

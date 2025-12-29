@@ -1,3 +1,10 @@
+// Site URLs - Update these when custom domains are added
+export const SITE_URLS = {
+  landing: 'https://pathways-landing.vercel.app',
+  therapy: 'https://pathways-therapy.vercel.app',
+  wellness: 'https://wellness-lac.vercel.app', // TODO: Rename to pathways-wellness in Vercel
+}
+
 // Therapy Locations
 export const THERAPY_LOCATIONS = [
   {

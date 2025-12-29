@@ -64,11 +64,11 @@ export function Footer() {
               <span className="text-wellness">Wellness</span> Services
             </p>
             <ul className="space-y-1.5 text-slate-400 font-body">
-              <li><a href="https://pathwayswellness.com/services/massage" className="hover:text-white">Massage Therapy</a></li>
-              <li><a href="https://pathwayswellness.com/services/acupuncture" className="hover:text-white">Acupuncture</a></li>
-              <li><a href="https://pathwayswellness.com/services/facials-skincare" className="hover:text-white">Facials & Skincare</a></li>
-              <li><a href="https://pathwayswellness.com/services/iv-vitamin-infusion" className="hover:text-white">IV Vitamin Infusion</a></li>
-              <li><a href="https://pathwayswellness.com/services" className="hover:text-white text-wellness">All Wellness Services →</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/massage" className="hover:text-white">Massage Therapy</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/acupuncture" className="hover:text-white">Acupuncture</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/facials-skincare" className="hover:text-white">Facials & Skincare</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/iv-vitamin-infusion" className="hover:text-white">IV Vitamin Infusion</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services" className="hover:text-white text-wellness">All Wellness Services →</a></li>
             </ul>
           </div>
           

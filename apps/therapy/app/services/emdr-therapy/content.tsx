@@ -87,7 +87,7 @@ export default function EMDRTherapyContent() {
               <p className="text-slate-600 font-body text-sm mb-4">
                 Our sister practice, Pathways Within Wellness, offers massage, acupuncture, and energy work that many clients find supportive alongside therapy.
               </p>
-              <a href="https://pathwayswithinwellness.com" className="inline-flex items-center gap-2 text-wellness font-title font-medium text-sm hover:underline" target="_blank" rel="noopener noreferrer">
+              <a href="https://wellness-lac.vercel.app" className="inline-flex items-center gap-2 text-wellness font-title font-medium text-sm hover:underline" target="_blank" rel="noopener noreferrer">
                 Explore Wellness Services
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
               </a>

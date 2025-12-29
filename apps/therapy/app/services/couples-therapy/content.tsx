@@ -153,7 +153,7 @@ export default function CouplesTherapyContent() {
                 Our sister practice, Pathways Within Wellness, offers massage, acupuncture, and energy work that many clients find supportive alongside therapy.
               </p>
               <a 
-                href="https://pathwayswithinwellness.com" 
+                href="https://wellness-lac.vercel.app" 
                 className="inline-flex items-center gap-2 text-wellness font-title font-medium text-sm hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"

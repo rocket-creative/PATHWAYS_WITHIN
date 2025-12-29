@@ -289,7 +289,7 @@ export default function ContactPage() {
                 <a href="tel:6313713825" className="text-therapy font-semibold text-lg">(631) 371-3825</a>
               </p>
               <a 
-                href="https://pathwayswithintherapy.com" 
+                href="https://pathways-therapy.vercel.app" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center gap-2 bg-therapy text-white px-6 py-3 rounded-lg font-title font-medium hover:bg-therapy-dark transition-colors"

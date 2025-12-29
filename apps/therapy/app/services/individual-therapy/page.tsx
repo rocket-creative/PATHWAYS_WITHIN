@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description: 'Personalized one-on-one therapy on Long Island. Licensed therapists offering CBT, EMDR, and evidence-based approaches for anxiety, depression, trauma, and personal growth. 5 locations + telehealth.',
   keywords: 'individual therapy, one-on-one counseling, CBT, therapist Long Island, anxiety therapy, depression treatment, personal growth',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/services/individual-therapy',
+    canonical: 'https://pathways-therapy.vercel.app/services/individual-therapy',
   },
   openGraph: {
     title: 'Individual Therapy | Pathways Within Therapy',
     description: 'Personalized one-on-one therapy on Long Island. Licensed therapists offering CBT, EMDR, and evidence-based approaches.',
-    url: 'https://pathwayswithintherapy.com/services/individual-therapy',
+    url: 'https://pathways-therapy.vercel.app/services/individual-therapy',
     type: 'website',
     images: [{ url: '/og-individual-therapy.jpg', width: 1200, height: 630, alt: 'Individual Therapy at Pathways Within' }],
   },
@@ -33,12 +33,12 @@ const serviceSchema = {
   '@type': 'MedicalTherapy',
   name: 'Individual Therapy',
   description: 'Professional one-on-one counseling with licensed therapists. Evidence-based approaches including CBT, EMDR, and talk therapy for anxiety, depression, trauma, relationship issues, and personal growth.',
-  url: 'https://pathwayswithintherapy.com/services/individual-therapy',
+  url: 'https://pathways-therapy.vercel.app/services/individual-therapy',
   provider: {
     '@type': 'MedicalBusiness',
     name: 'Pathways Within Therapy',
     telephone: '+1-631-371-3825',
-    url: 'https://pathwayswithintherapy.com',
+    url: 'https://pathways-therapy.vercel.app',
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Long Island',
@@ -93,9 +93,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathwayswithintherapy.com' },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathwayswithintherapy.com/services' },
-    { '@type': 'ListItem', position: 3, name: 'Individual Therapy', item: 'https://pathwayswithintherapy.com/services/individual-therapy' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathways-therapy.vercel.app' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathways-therapy.vercel.app/services' },
+    { '@type': 'ListItem', position: 3, name: 'Individual Therapy', item: 'https://pathways-therapy.vercel.app/services/individual-therapy' },
   ],
 }
 

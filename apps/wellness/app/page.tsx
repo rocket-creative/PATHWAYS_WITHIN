@@ -499,7 +499,7 @@ export default function WellnessHome() {
                 trauma therapy for deeper healing.
               </p>
               <a 
-                href="https://pathwaystherapy.com" 
+                href="https://pathways-therapy.vercel.app" 
                 className="inline-flex items-center bg-therapy text-white px-6 py-3 rounded-lg text-sm font-title font-medium btn-hover gap-2"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'EMDR Therapy | Pathways Within Therapy',
   description: 'EMDR therapy on Long Island for PTSD, trauma, anxiety, and phobias. Evidence-based Eye Movement Desensitization and Reprocessing. 5 locations + telehealth. Call (631) 371-3825.',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/services/emdr-therapy',
+    canonical: 'https://pathways-therapy.vercel.app/services/emdr-therapy',
   },
   openGraph: {
     title: 'EMDR Therapy | Trauma Treatment | Pathways Within',
     description: 'Evidence-based EMDR therapy for PTSD, trauma, anxiety, and phobias on Long Island.',
-    url: 'https://pathwayswithintherapy.com/services/emdr-therapy',
+    url: 'https://pathways-therapy.vercel.app/services/emdr-therapy',
     type: 'website',
     images: [{ url: '/og-emdr-therapy.jpg', width: 1200, height: 630, alt: 'EMDR Therapy at Pathways Within' }],
   },
@@ -27,12 +27,12 @@ const serviceSchema = {
   name: 'EMDR Therapy',
   alternateName: 'Eye Movement Desensitization and Reprocessing',
   description: 'EMDR is a structured, evidence-based psychotherapy approach that uses bilateral stimulation to help process traumatic memories. Effective for PTSD, anxiety, phobias, grief, and disturbing memories.',
-  url: 'https://pathwayswithintherapy.com/services/emdr-therapy',
+  url: 'https://pathways-therapy.vercel.app/services/emdr-therapy',
   provider: {
     '@type': 'MedicalBusiness',
     name: 'Pathways Within Therapy',
     telephone: '+1-631-371-3825',
-    url: 'https://pathwayswithintherapy.com',
+    url: 'https://pathways-therapy.vercel.app',
   },
   medicalSpecialty: 'Psychiatry',
   relevantSpecialty: ['PTSD Treatment', 'Trauma Recovery', 'Anxiety Treatment'],
@@ -81,9 +81,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathwayswithintherapy.com' },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathwayswithintherapy.com/services' },
-    { '@type': 'ListItem', position: 3, name: 'EMDR Therapy', item: 'https://pathwayswithintherapy.com/services/emdr-therapy' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathways-therapy.vercel.app' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathways-therapy.vercel.app/services' },
+    { '@type': 'ListItem', position: 3, name: 'EMDR Therapy', item: 'https://pathways-therapy.vercel.app/services/emdr-therapy' },
   ],
 }
 

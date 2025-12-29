@@ -511,7 +511,7 @@ export default function ContactPage() {
                 <a href="tel:5163369209" className="text-wellness font-semibold text-lg">(516) 336-9209</a>
               </p>
               <a 
-                href="https://pathwayswithinwellness.com" 
+                href="https://wellness-lac.vercel.app" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center gap-2 bg-wellness text-white px-6 py-3 rounded-lg font-title font-medium hover:bg-wellness-dark transition-colors"

@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Child Therapy | Pathways Within Therapy',
   description: 'Specialized play therapy for children ages 3-12 on Long Island. Help your child process emotions, overcome challenges, and build resilience. Call (631) 371-3825.',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/services/child-therapy',
+    canonical: 'https://pathways-therapy.vercel.app/services/child-therapy',
   },
   openGraph: {
     title: 'Child Therapy & Play Therapy | Pathways Within',
     description: 'Specialized therapy for children using play-based approaches. Help your child through big feelings.',
-    url: 'https://pathwayswithintherapy.com/services/child-therapy',
+    url: 'https://pathways-therapy.vercel.app/services/child-therapy',
     type: 'website',
     images: [{ url: '/og-child-therapy.jpg', width: 1200, height: 630, alt: 'Child Therapy at Pathways Within' }],
   },
@@ -27,12 +27,12 @@ const serviceSchema = {
   name: 'Child Therapy',
   alternateName: 'Play Therapy',
   description: 'Specialized therapeutic support for children ages 3-12 using play therapy and age-appropriate techniques to help process emotions, overcome behavioral challenges, and build resilience.',
-  url: 'https://pathwayswithintherapy.com/services/child-therapy',
+  url: 'https://pathways-therapy.vercel.app/services/child-therapy',
   provider: {
     '@type': 'MedicalBusiness',
     name: 'Pathways Within Therapy',
     telephone: '+1-631-371-3825',
-    url: 'https://pathwayswithintherapy.com',
+    url: 'https://pathways-therapy.vercel.app',
   },
   medicalSpecialty: 'Psychiatry',
 }
@@ -80,9 +80,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathwayswithintherapy.com' },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathwayswithintherapy.com/services' },
-    { '@type': 'ListItem', position: 3, name: 'Child Therapy', item: 'https://pathwayswithintherapy.com/services/child-therapy' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathways-therapy.vercel.app' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathways-therapy.vercel.app/services' },
+    { '@type': 'ListItem', position: 3, name: 'Child Therapy', item: 'https://pathways-therapy.vercel.app/services/child-therapy' },
   ],
 }
 

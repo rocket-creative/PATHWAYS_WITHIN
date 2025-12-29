@@ -2,7 +2,7 @@ import './globals.css'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://pathwayswellness.com'),
+  metadataBase: new URL('https://wellness-lac.vercel.app'),
   title: {
     default: 'Pathways Within Wellness | Spa & Holistic Services | Long Island NY',
     template: '%s | Pathways Within Wellness'
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://pathwayswellness.com',
+    url: 'https://wellness-lac.vercel.app',
     siteName: 'Pathways Within Wellness',
     title: 'Spa & Wellness Services | Long Island NY | Pathways Within',
     description: 'Premium massage, acupuncture, facials, IV therapy, body sculpting, and holistic wellness. Massapequa & Garden City locations.',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://pathwayswellness.com',
+    canonical: 'https://wellness-lac.vercel.app',
   },
 }
 
@@ -44,8 +44,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "HealthAndBeautyBusiness",
               "name": "Pathways Within Wellness",
-              "url": "https://pathwayswellness.com",
-              "logo": "https://pathwayswellness.com/logo.png",
+              "url": "https://wellness-lac.vercel.app",
+              "logo": "https://wellness-lac.vercel.app/logo.png",
               "description": "Premium spa and wellness services including massage, acupuncture, facials, IV vitamin infusion, body sculpting, and holistic wellness treatments.",
               "telephone": "+1-516-336-9209",
               "email": "info@pathwayswithinwellness.com",

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy Policy for Pathways Within Therapy. Learn how we protect your personal information and health data under HIPAA regulations.',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/privacy-policy',
+    canonical: 'https://pathways-therapy.vercel.app/privacy-policy',
   },
 }
 

@@ -50,11 +50,11 @@ export function Footer() {
               <span className="text-therapy">Therapy</span> Services
             </p>
             <ul className="space-y-1.5 text-slate-400 font-body">
-              <li><a href="https://pathwaystherapy.com/services/individual-therapy" className="hover:text-white">Individual Therapy</a></li>
-              <li><a href="https://pathwaystherapy.com/services/couples-therapy" className="hover:text-white">Couples Therapy</a></li>
-              <li><a href="https://pathwaystherapy.com/services/trauma-therapy" className="hover:text-white">Trauma & EMDR</a></li>
-              <li><a href="https://pathwaystherapy.com/services/child-therapy" className="hover:text-white">Child & Teen</a></li>
-              <li><a href="https://pathwaystherapy.com/services" className="hover:text-white text-therapy">All Therapy Services →</a></li>
+              <li><a href="https://pathways-therapy.vercel.app/services/individual-therapy" className="hover:text-white">Individual Therapy</a></li>
+              <li><a href="https://pathways-therapy.vercel.app/services/couples-therapy" className="hover:text-white">Couples Therapy</a></li>
+              <li><a href="https://pathways-therapy.vercel.app/services/trauma-therapy" className="hover:text-white">Trauma & EMDR</a></li>
+              <li><a href="https://pathways-therapy.vercel.app/services/child-therapy" className="hover:text-white">Child & Teen</a></li>
+              <li><a href="https://pathways-therapy.vercel.app/services" className="hover:text-white text-therapy">All Therapy Services →</a></li>
             </ul>
           </div>
           
@@ -64,11 +64,11 @@ export function Footer() {
               <span className="text-wellness">Wellness</span> Services
             </p>
             <ul className="space-y-1.5 text-slate-400 font-body">
-              <li><a href="https://pathwayswellness.com/services/massage" className="hover:text-white">Massage Therapy</a></li>
-              <li><a href="https://pathwayswellness.com/services/acupuncture" className="hover:text-white">Acupuncture</a></li>
-              <li><a href="https://pathwayswellness.com/services/facials-skincare" className="hover:text-white">Facials & Skincare</a></li>
-              <li><a href="https://pathwayswellness.com/services/iv-vitamin-infusion" className="hover:text-white">IV Vitamin Infusion</a></li>
-              <li><a href="https://pathwayswellness.com/services" className="hover:text-white text-wellness">All Wellness Services →</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/massage" className="hover:text-white">Massage Therapy</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/acupuncture" className="hover:text-white">Acupuncture</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/facials-skincare" className="hover:text-white">Facials & Skincare</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services/iv-vitamin-infusion" className="hover:text-white">IV Vitamin Infusion</a></li>
+              <li><a href="https://wellness-lac.vercel.app/services" className="hover:text-white text-wellness">All Wellness Services →</a></li>
             </ul>
           </div>
           

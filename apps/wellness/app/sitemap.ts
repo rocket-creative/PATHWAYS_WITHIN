@@ -8,7 +8,8 @@ import { MetadataRoute } from 'next'
  */
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://pathwayswithinwellness.com'
+  // TODO: Update to custom domain when available: pathwayswithinwellness.com
+  const baseUrl = 'https://wellness-lac.vercel.app'
   const currentDate = new Date().toISOString()
 
   // Core pages

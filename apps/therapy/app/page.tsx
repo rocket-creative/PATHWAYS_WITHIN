@@ -477,7 +477,7 @@ export default function TherapyHome() {
                 massage, acupuncture, IV therapy, and holistic body care to complement your therapeutic journey.
               </p>
               <a 
-                href="https://pathwayswellness.com" 
+                href="https://wellness-lac.vercel.app" 
                 className="inline-flex items-center bg-wellness text-white px-6 py-3 rounded-lg text-sm font-title font-medium btn-hover gap-2"
                 target="_blank"
                 rel="noopener noreferrer"

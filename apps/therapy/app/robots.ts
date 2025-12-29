@@ -7,7 +7,8 @@ import { MetadataRoute } from 'next'
  */
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://pathwayswithintherapy.com'
+  // TODO: Update to custom domain when available: pathwayswithintherapy.com
+  const baseUrl = 'https://pathways-therapy.vercel.app'
   
   return {
     rules: [

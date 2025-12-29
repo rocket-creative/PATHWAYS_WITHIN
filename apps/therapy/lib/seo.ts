@@ -6,7 +6,8 @@ import { Metadata } from 'next'
  * Use these helpers to ensure consistent, compliant SEO across all pages.
  */
 
-const BASE_URL = 'https://pathwayswithintherapy.com'
+// TODO: Update to custom domain when available: pathwayswithintherapy.com
+const BASE_URL = 'https://pathways-therapy.vercel.app'
 const SITE_NAME = 'Pathways Within Therapy'
 const DEFAULT_IMAGE = '/og-image.jpg'
 const PHONE = '(631) 371-3825'

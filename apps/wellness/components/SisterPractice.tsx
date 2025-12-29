@@ -8,13 +8,14 @@
  */
 
 import Link from 'next/link'
+import { SITE_URLS } from '@shared/lib/constants'
 
 interface SisterPracticeProps {
   variant?: 'default' | 'compact' | 'footer'
 }
 
 export function SisterPractice({ variant = 'default' }: SisterPracticeProps) {
-  const therapyUrl = 'https://pathwayswithintherapy.com' // Update with actual domain when deployed
+  const therapyUrl = SITE_URLS.therapy
   
   if (variant === 'footer') {
     return (

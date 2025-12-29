@@ -5,12 +5,12 @@ export const metadata: Metadata = {
   title: 'Couples Therapy | Pathways Within Therapy',
   description: 'Expert couples therapy on Long Island using the Gottman Method. Rebuild connection, improve communication, and rediscover love. 5 locations + telehealth. Call (631) 371-3825.',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/services/couples-therapy',
+    canonical: 'https://pathways-therapy.vercel.app/services/couples-therapy',
   },
   openGraph: {
     title: 'Couples Therapy | Rebuild Connection | Pathways Within',
     description: 'Expert couples therapy using the Gottman Method. Improve communication and reconnect with your partner.',
-    url: 'https://pathwayswithintherapy.com/services/couples-therapy',
+    url: 'https://pathways-therapy.vercel.app/services/couples-therapy',
     type: 'website',
     images: [{ url: '/og-couples-therapy.jpg', width: 1200, height: 630, alt: 'Couples Therapy at Pathways Within' }],
   },
@@ -26,12 +26,12 @@ const serviceSchema = {
   '@type': 'MedicalTherapy',
   name: 'Couples Therapy',
   description: 'Expert couples therapy using evidence-based approaches including the Gottman Method to help couples rebuild connection, improve communication, and resolve conflicts.',
-  url: 'https://pathwayswithintherapy.com/services/couples-therapy',
+  url: 'https://pathways-therapy.vercel.app/services/couples-therapy',
   provider: {
     '@type': 'MedicalBusiness',
     name: 'Pathways Within Therapy',
     telephone: '+1-631-371-3825',
-    url: 'https://pathwayswithintherapy.com',
+    url: 'https://pathways-therapy.vercel.app',
   },
   medicalSpecialty: 'Psychiatry',
 }
@@ -79,9 +79,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathwayswithintherapy.com' },
-    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathwayswithintherapy.com/services' },
-    { '@type': 'ListItem', position: 3, name: 'Couples Therapy', item: 'https://pathwayswithintherapy.com/services/couples-therapy' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://pathways-therapy.vercel.app' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://pathways-therapy.vercel.app/services' },
+    { '@type': 'ListItem', position: 3, name: 'Couples Therapy', item: 'https://pathways-therapy.vercel.app/services/couples-therapy' },
   ],
 }
 

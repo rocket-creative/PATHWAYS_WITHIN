@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Terms of Service',
   description: 'Terms of Service for Pathways Within Therapy website and mental health services, including telehealth policies.',
   alternates: {
-    canonical: 'https://pathwayswithintherapy.com/terms-of-service',
+    canonical: 'https://pathways-therapy.vercel.app/terms-of-service',
   },
 }
 

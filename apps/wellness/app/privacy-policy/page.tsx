@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Privacy Policy',
   description: 'Privacy Policy for Pathways Within Wellness. Learn how we protect your personal information.',
   alternates: {
-    canonical: 'https://pathwayswithinwellness.com/privacy-policy',
+    canonical: 'https://wellness-lac.vercel.app/privacy-policy',
   },
 }
 
