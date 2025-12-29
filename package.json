@@ -11,6 +11,8 @@
     "build:wellness": "cd apps/wellness && npm run build",
     "build:landing": "cd apps/landing && npm run build"
   },
-  "description": "Pathways Within - Therapy and Wellness websites"
+  "description": "Pathways Within - Therapy and Wellness websites",
+  "devDependencies": {
+    "vercel": "^50.1.3"
+  }
 }
-
