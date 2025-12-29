@@ -1,0 +1,98 @@
+# PATHWAYS WITHIN - CURSOR RULES (v2.1)
+
+## 🚨 MANDATORY: READ BEFORE BUILDING ANY PAGE
+
+**MASTER-RULES.md contains a MANDATORY PAGE BUILD CHECKLIST.**
+**Follow it DURING the build, not after.**
+
+---
+
+## ⚡ QUICK BUILD CHECKLIST (Full list in MASTER-RULES.md)
+
+When building ANY page, include:
+
+### Structure
+- [ ] Crisis banner (988 hotline)
+- [ ] Skip link for accessibility
+- [ ] Navigation with search
+- [ ] Hero above the fold with clear CTAs
+- [ ] Alternating section backgrounds
+- [ ] FAQ section (4-6 questions)
+- [ ] Ownership disclosure
+- [ ] Footer
+
+### SEO & Schema (EVERY PAGE)
+- [ ] Title tag (60 chars)
+- [ ] Meta description (155-160 chars)
+- [ ] Open Graph tags
+- [ ] Canonical URL
+- [ ] Schema.org JSON-LD (Organization, FAQPage, Service, etc.)
+
+### Accessibility (EVERY PAGE)
+- [ ] Single H1, proper heading hierarchy
+- [ ] ARIA labels on buttons/icons
+- [ ] aria-live for dynamic content
+- [ ] Keyboard navigation
+- [ ] Focus indicators
+- [ ] Alt text on images
+- [ ] prefers-reduced-motion support
+
+---
+
+## KEY DECISIONS (December 2025)
+
+### Deployment
+- **Platform:** Vercel (serverless functions)
+- **Strategy:** THREE SEPARATE DEPLOYMENTS
+  - `pathwayswithin.com` → Landing page
+  - Therapy site → Domain TBD
+  - Wellness site → Domain TBD
+
+### Crisis Banner (NY State Requirement)
+- **REQUIRED:** Therapy site + Wellness site (all pages)
+- **RECOMMENDED:** Landing page (not mandated)
+
+### Spanish Translation
+- **Phase 2** (launch English-only first)
+
+### Forms
+- Vercel serverless API routes for submission
+- Email via Resend/SendGrid
+
+---
+
+## Hierarchy (Quick Reference)
+1. **HIPAA/Compliance** — Cannot override
+2. **MASTER-RULES.md** — All conflicts resolved
+3. **Project-specific** — design-system.md, build-outline.md
+4. **UX/UI/SEO** — instructions.md
+5. **Judgment** — Best practices for gaps
+
+---
+
+## Key Rules
+- Crisis banner (988): **REQUIRED** on Therapy + Wellness | **Recommended** on Landing
+- Ownership disclosure on cross-promotional content
+- Consent checkboxes **UNCHECKED** by default
+- No PHI collection (no DOB, SSN, medical history)
+- No health outcome claims without evidence
+- Max-width: **1440px**
+- WCAG 2.1 AA accessibility
+- Component naming: **Skip |UXUIDC| prefix**
+
+## Design System (2025 Best Practices)
+- **Fonts:** Cormorant Garamond (hero), DM Serif Display (headings), DM Sans (body)
+- **Backgrounds:** Warm cream (#FAF8F5)
+- **Text:** Soft charcoal (#3D3D3D)
+- **Therapy accent:** Slate blue (#5B7B8A)
+- **Wellness accent:** Sage green (#7A9B8A)
+- **See `design-system.md` for full specifications**
+
+---
+
+## Files Reference
+- `RULES/MASTER-RULES.md` — **START HERE** (single source of truth + BUILD CHECKLIST)
+- `RULES/design-system.md` — Colors, typography
+- `RULES/pathways-cursor-build-outline.md` — Site structure
+- `RULES/pathways-compliance-audit.md` — HIPAA details
+- `RULES/interactive-enhancement-specification.md` — Quizzes, tools

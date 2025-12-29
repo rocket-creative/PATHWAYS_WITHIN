@@ -1,0 +1,245 @@
+[
+  {
+    "name": "Rachel Lessard, LCSW-R",
+    "title": "Founder & Owner",
+    "photo": "rachel-lessard.jpg",
+    "specialties": [
+      "Anxiety & Depression",
+      "PTSD & Trauma",
+      "Couples Therapy",
+      "Hypnotherapy",
+      "Veterans & First Responders"
+    ],
+    "locations": [
+      "Smithtown",
+      "Garden City"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Benjamin Marmorstein, PhD, LCSW",
+    "title": "Clinical Supervisor",
+    "photo": "benjamin-marmorstein.jpg",
+    "specialties": [
+      "Psychotherapy",
+      "Clinical Supervision",
+      "Research"
+    ],
+    "locations": [
+      "Smithtown"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Beth Gabellini, LCSW",
+    "title": "Therapist",
+    "photo": "beth-gabellini.jpg",
+    "specialties": [
+      "Anxiety",
+      "Depression",
+      "Life Transitions"
+    ],
+    "locations": [
+      "Garden City"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Carly Sandstrom, LCSW",
+    "title": "Therapist",
+    "photo": "carly-sandstrom.jpg",
+    "specialties": [
+      "Children",
+      "Adolescents",
+      "Family"
+    ],
+    "locations": [
+      "Smithtown"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Jennifer Thieke, LCSW",
+    "title": "Therapist",
+    "photo": "jennifer-thieke.jpg",
+    "specialties": [
+      "Trauma",
+      "EMDR",
+      "Anxiety"
+    ],
+    "locations": [
+      "Massapequa"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Joe Bush, LMHC",
+    "title": "Therapist",
+    "photo": "joe-bush.jpg",
+    "specialties": [
+      "Men's Issues",
+      "Addiction",
+      "Relationships"
+    ],
+    "locations": [
+      "Port Jefferson"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Joy Fullhardt, LCSW",
+    "title": "Therapist",
+    "photo": "joy-fullhardt.jpg",
+    "specialties": [
+      "Anxiety",
+      "Depression",
+      "Self-Esteem"
+    ],
+    "locations": [
+      "Garden City"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Ksusha Cascio, LCSW",
+    "title": "Therapist",
+    "photo": "ksusha-cascio.jpg",
+    "specialties": [
+      "Trauma",
+      "LGBTQ+",
+      "Life Transitions"
+    ],
+    "locations": [
+      "Rockville Centre"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Laura DeSilva, LMHC",
+    "title": "Therapist",
+    "photo": "laura-desilva.jpg",
+    "specialties": [
+      "Anxiety",
+      "Trauma",
+      "Women's Issues"
+    ],
+    "locations": [
+      "Smithtown"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Lauren Hollander, LCSW",
+    "title": "Therapist",
+    "photo": "lauren-hollander.jpg",
+    "specialties": [
+      "Children",
+      "Play Therapy",
+      "Family"
+    ],
+    "locations": [
+      "Garden City"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Lee Wasser, LCSW",
+    "title": "Therapist",
+    "photo": "lee-wasser.jpg",
+    "specialties": [
+      "Addiction",
+      "Recovery",
+      "Men's Issues"
+    ],
+    "locations": [
+      "Port Jefferson"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Paula Gonthier, LCSW",
+    "title": "Therapist",
+    "photo": "paula-gonthier.jpg",
+    "specialties": [
+      "Anxiety",
+      "Depression",
+      "Life Transitions"
+    ],
+    "locations": [
+      "Massapequa"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Ryan Gallo, LMHC",
+    "title": "Therapist",
+    "photo": "ryan-gallo.jpg",
+    "specialties": [
+      "Men's Issues",
+      "First Responders",
+      "Trauma"
+    ],
+    "locations": [
+      "Smithtown"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Samantha Juravich, LCSW",
+    "title": "Therapist",
+    "photo": "samantha-juravich.jpg",
+    "specialties": [
+      "Anxiety",
+      "Depression",
+      "Young Adults"
+    ],
+    "locations": [
+      "Rockville Centre"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Samantha Tavel, LCSW",
+    "title": "Therapist",
+    "photo": "samantha-tavel.jpg",
+    "specialties": [
+      "Children",
+      "Teens",
+      "Play Therapy"
+    ],
+    "locations": [
+      "Garden City"
+    ],
+    "accepting_new": true,
+    "email": ""
+  },
+  {
+    "name": "Stephanie Procopiou, LCSW",
+    "title": "Therapist",
+    "photo": "stephanie-procopiou.jpg",
+    "specialties": [
+      "Anxiety",
+      "Depression",
+      "Relationships"
+    ],
+    "locations": [
+      "Smithtown"
+    ],
+    "accepting_new": true,
+    "email": ""
+  }
+]

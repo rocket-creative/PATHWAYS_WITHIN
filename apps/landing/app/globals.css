@@ -1,0 +1,307 @@
+/* 2025 Design System - Pathways Within Landing */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clarendon font-face - loaded from local font file */
+@font-face {
+  font-family: 'Clarendon';
+  src: url('/fonts/Clarendon-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Clarendon';
+  src: url('/fonts/Clarendon-Regular.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ========================================
+     BACKGROUNDS - Ultra Light
+     ======================================== */
+  --bg-white: #FFFFFF;
+  --bg-ivory: #FDFCFB;
+  --bg-pearl: #FAF9F7;
+  --bg-linen: #F5F4F2;
+  
+  /* ========================================
+     DARK SLATE GREY FAMILY
+     ======================================== */
+  --slate-900: #1E293B;
+  --slate-800: #293548;
+  --slate-700: #374151;
+  --slate-500: #64748B;
+  --slate-400: #94A3B8;
+  --slate-200: #E2E8F0;
+  --slate-100: #F1F5F9;
+  
+  /* ========================================
+     THERAPY ACCENT - Ocean Blue
+     ======================================== */
+  --therapy: #5B7B9A;
+  --therapy-light: #7B9BB8;
+  --therapy-dark: #4A6A85;
+  --therapy-muted: rgba(91, 123, 154, 0.12);
+  
+  /* ========================================
+     WELLNESS ACCENT - Sage Green
+     ======================================== */
+  --wellness: #5A8A7A;
+  --wellness-light: #7BA898;
+  --wellness-muted: rgba(90, 138, 122, 0.12);
+  
+  /* ========================================
+     SECONDARY ACCENT - Warm Copper
+     ======================================== */
+  --copper: #B8886A;
+  --copper-light: #D4A888;
+  
+  /* ========================================
+     CRISIS BANNER
+     ======================================== */
+  --crisis-bg: #4A6A85;
+  
+  /* ========================================
+     TRANSITIONS
+     ======================================== */
+  --transition-fast: 150ms;
+  --transition-base: 200ms;
+  --transition-slow: 300ms;
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+html { 
+  font-size: 16px; 
+  scroll-behavior: smooth; 
+}
+
+body { 
+  font-family: 'Clarendon', Georgia, 'Times New Roman', serif;
+  color: var(--slate-700);
+  background: var(--bg-white);
+  line-height: 1.6;
+}
+
+/* Typography - Raleway for titles, Clarendon for body */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+  color: var(--slate-800);
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.font-title {
+  font-family: 'Raleway', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.font-body {
+  font-family: 'Clarendon', Georgia, 'Times New Roman', serif;
+}
+
+/* ========================================
+   COLOR UTILITIES
+   ======================================== */
+
+/* Backgrounds */
+.bg-white { background-color: var(--bg-white); }
+.bg-ivory { background-color: var(--bg-ivory); }
+.bg-pearl { background-color: var(--bg-pearl); }
+.bg-linen { background-color: var(--bg-linen); }
+.bg-slate-900 { background-color: var(--slate-900); }
+.bg-slate-100 { background-color: var(--slate-100); }
+.bg-therapy { background-color: var(--therapy); }
+.bg-therapy-dark { background-color: var(--therapy-dark); }
+.bg-therapy-muted { background-color: var(--therapy-muted); }
+.bg-wellness { background-color: var(--wellness); }
+.bg-wellness-muted { background-color: var(--wellness-muted); }
+.bg-copper { background-color: var(--copper); }
+.bg-crisis { background-color: var(--crisis-bg); }
+
+/* Text */
+.text-slate-900 { color: var(--slate-900); }
+.text-slate-800 { color: var(--slate-800); }
+.text-slate-700 { color: var(--slate-700); }
+.text-slate-500 { color: var(--slate-500); }
+.text-slate-400 { color: var(--slate-400); }
+.text-therapy { color: var(--therapy); }
+.text-therapy-dark { color: var(--therapy-dark); }
+.text-wellness { color: var(--wellness); }
+.text-copper { color: var(--copper); }
+
+/* Borders */
+.border-slate-200 { border-color: var(--slate-200); }
+.border-slate-100 { border-color: var(--slate-100); }
+.border-therapy { border-color: var(--therapy); }
+.border-wellness { border-color: var(--wellness); }
+
+/* ========================================
+   LAYOUT
+   ======================================== */
+.max-w-site {
+  max-width: 1280px;
+}
+
+/* ========================================
+   ACCESSIBILITY
+   ======================================== */
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  background: var(--slate-900);
+  color: white;
+  font-size: 0.875rem;
+  border-radius: 0 0 4px 4px;
+  z-index: 9999;
+}
+
+.skip-link:focus {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  height: auto;
+  padding: 0.75rem 1.5rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  outline: 2px solid var(--therapy);
+  outline-offset: 2px;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--therapy);
+  outline-offset: 2px;
+}
+
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.2s ease-out forwards;
+}
+
+.stagger-1 { animation-delay: 0.1s; opacity: 0; }
+.stagger-2 { animation-delay: 0.2s; opacity: 0; }
+.stagger-3 { animation-delay: 0.3s; opacity: 0; }
+.stagger-4 { animation-delay: 0.4s; opacity: 0; }
+.stagger-5 { animation-delay: 0.5s; opacity: 0; }
+.stagger-6 { animation-delay: 0.6s; opacity: 0; }
+
+/* ========================================
+   HOVER EFFECTS
+   ======================================== */
+.hover-lift {
+  transition: transform var(--transition-base) ease, box-shadow var(--transition-base) ease;
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(30, 41, 59, 0.08);
+}
+
+.btn-hover {
+  transition: all var(--transition-fast) ease;
+}
+.btn-hover:hover {
+  transform: translateY(-1px);
+}
+
+.link-underline {
+  position: relative;
+}
+.link-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width var(--transition-base) ease;
+}
+.link-underline:hover::after {
+  width: 100%;
+}
+
+/* ========================================
+   QUIZ STYLES
+   ======================================== */
+.quiz-option {
+  transition: all var(--transition-fast) ease;
+  cursor: pointer;
+}
+.quiz-option:hover {
+  border-color: var(--therapy);
+  background: var(--bg-ivory);
+}
+.quiz-option.selected {
+  border-color: var(--therapy);
+  background: var(--therapy);
+  color: white;
+}
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ========================================
+   HIGH CONTRAST
+   ======================================== */
+@media (prefers-contrast: high) {
+  :root {
+    --slate-700: #000000;
+    --slate-800: #000000;
+    --slate-900: #000000;
+  }
+}

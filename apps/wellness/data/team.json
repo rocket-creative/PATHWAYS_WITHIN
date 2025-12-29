@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Rachel Lessard",
+    "title": "Owner & Founder",
+    "photo": "rachel-lessard.jpg",
+    "bio": "With certifications in esthetics, energy work, and integrative wellness practices, Rachel established Pathways Within Wellness to create a sanctuary where clients can heal, grow, and embrace their most authentic self.",
+    "credentials": [
+      "Licensed Clinical Social Worker (LCSW-R)",
+      "Certified Esthetician",
+      "Trained in Reiki & IET",
+      "Integrative Wellness Practitioner"
+    ],
+    "services": [
+      "Energy Work",
+      "Esthetics",
+      "Wellness Consulting"
+    ],
+    "email": ""
+  },
+  {
+    "name": "Christine Cervo",
+    "title": "Massage Therapist",
+    "photo": "christine-cervo.jpg",
+    "bio": "With an extensive background in massage therapy, Christine specializes in Swedish, deep tissue, sports, prenatal massage, and energy work modalities.",
+    "credentials": [
+      "Licensed Massage Therapist",
+      "Swedish & Deep Tissue",
+      "Sports & Prenatal",
+      "Energy Work Integration"
+    ],
+    "services": [
+      "Swedish Massage",
+      "Deep Tissue",
+      "Sports Massage",
+      "Prenatal Massage"
+    ],
+    "email": ""
+  },
+  {
+    "name": "Nicole Imbasciani",
+    "title": "Medical Director",
+    "photo": "nicole-imbasciani.jpg",
+    "bio": "With a background in nursing and medical aesthetics, Nicole brings clinical expertise and medical oversight to ensure the safety and efficacy of all medical-grade treatments.",
+    "credentials": [
+      "Registered Nurse",
+      "Medical Aesthetics",
+      "Clinical Protocols",
+      "Treatment Safety"
+    ],
+    "services": [
+      "Medical Oversight",
+      "Injectable Treatments",
+      "Clinical Protocols"
+    ],
+    "email": ""
+  },
+  {
+    "name": "Evelina Abayev",
+    "title": "Registered Nurse",
+    "photo": "evelina-abayev.jpg",
+    "bio": "Evelina is passionate about helping clients achieve their wellness and beauty goals through medical-grade treatments administered with clinical precision and compassionate care.",
+    "credentials": [
+      "IV Vitamin Infusion",
+      "PRP Treatments",
+      "Injectable Treatments",
+      "Laser Treatments"
+    ],
+    "services": [
+      "IV Vitamin Infusion",
+      "PRP Facial",
+      "Laser Hair Removal"
+    ],
+    "email": ""
+  },
+  {
+    "name": "Angela Gestone",
+    "title": "Esthetician",
+    "photo": "angela-gestone.jpg",
+    "bio": "Angela has been in the beauty industry for several years with extensive knowledge in skincare treatments including facials, chemical peels, and advanced skincare modalities.",
+    "credentials": [
+      "HydraFacial Certified",
+      "Chemical Peels",
+      "Oxygen Dome Facial",
+      "Skincare Education"
+    ],
+    "services": [
+      "HydraFacial",
+      "Chemical Peels",
+      "Facials",
+      "Skincare"
+    ],
+    "email": ""
+  },
+  {
+    "name": "Gloria Saladino",
+    "title": "Front Desk Manager",
+    "photo": "gloria-saladino.jpg",
+    "bio": "Gloria is the welcoming face of Pathways Within, ensuring every client has a positive experience from their very first call to checkout.",
+    "credentials": [
+      "Customer Service",
+      "Appointment Scheduling",
+      "Care Coordination",
+      "Client Relations"
+    ],
+    "services": [],
+    "email": ""
+  }
+]
