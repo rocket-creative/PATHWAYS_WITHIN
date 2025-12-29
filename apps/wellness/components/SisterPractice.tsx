@@ -8,7 +8,7 @@
  */
 
 import Link from 'next/link'
-import { SITE_URLS } from '@shared/lib/constants'
+import { SITE_URLS } from '../../../packages/shared/lib/constants'
 
 interface SisterPracticeProps {
   variant?: 'default' | 'compact' | 'footer'
