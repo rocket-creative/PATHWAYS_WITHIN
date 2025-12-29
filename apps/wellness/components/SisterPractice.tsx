@@ -8,14 +8,13 @@
  */
 
 import Link from 'next/link'
-import { SITE_URLS } from '../../../packages/shared/lib/constants'
 
 interface SisterPracticeProps {
   variant?: 'default' | 'compact' | 'footer'
 }
 
 export function SisterPractice({ variant = 'default' }: SisterPracticeProps) {
-  const therapyUrl = SITE_URLS.therapy
+  const therapyUrl = 'https://pathways-therapy.vercel.app'
   
   if (variant === 'footer') {
     return (

@@ -8,14 +8,13 @@
  */
 
 import Link from 'next/link'
-import { SITE_URLS } from '../../../packages/shared/lib/constants'
 
 interface SisterPracticeProps {
   variant?: 'default' | 'compact' | 'footer'
 }
 
 export function SisterPractice({ variant = 'default' }: SisterPracticeProps) {
-  const wellnessUrl = SITE_URLS.wellness
+  const wellnessUrl = 'https://wellness-lac.vercel.app'
   
   if (variant === 'footer') {
     return (
